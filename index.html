@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/fc1b2206b8.js" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
@@ -78,7 +79,7 @@
                     majority <br> have suffered
                     alteration in some form, by injected humour.</p>
 
-                <div class="flex justify-center gap-[24px] max-sm:">
+                <div class="flex justify-center gap-[24px] max-sm:flex-col items-center">
                     <input
                         class="rounded-[8px] poppins-regular font-normal text-[#A0A0A0] text-[1rem] bg-[#FFFFFF] w-150 pl-[20px] py-[19px] "
                         placeholder="Search your services" type="search" name="" id="">
@@ -258,11 +259,13 @@
                 passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by
                 injected humour.</p>
 
-            <div class="flex justify-between flex-wrap ">
+            <div class="">
+
+                <div class="flex justify-between flex-wrap">
 
                 <div class="">
 
-                    <div class=" rounded bg-[#F3F3F3] mb-[30px] max-sm:w-screen ">
+                    <div class=" rounded bg-[#F3F3F3] mb-[30px]   ">
                         <div class="flex justify-between items-center p-[32px]">
                             <div>
                                 <h2 class="noto-serif-EBGaramond font-extrabold text-[1.5rem] text-[#414040] mb-[16px]">
@@ -277,7 +280,7 @@
 
                     </div>
 
-                    <div class=" rounded bg-[#F3F3F3] max-sm:w-screen">
+                    <div class=" rounded bg-[#F3F3F3] ">
                         <div class="flex justify-between items-center p-[32px] mb-[30px]">
                             <div>
                                 <h2 class="noto-serif-EBGaramond font-extrabold text-[1.5rem] text-[#414040] mb-[16px]">
@@ -294,7 +297,7 @@
 
                     </div>
 
-                    <div class=" rounded bg-[#F3F3F3] max-sm:w-screen">
+                    <div class=" rounded bg-[#F3F3F3] ">
                         <div class="flex justify-between items-center p-[32px] mb-[30px]">
                             <div>
                                 <h2 class="noto-serif-EBGaramond font-extrabold text-[1.5rem] text-[#414040] mb-[16px]">
@@ -335,7 +338,10 @@
                 </div>
 
 
-                <div><img class="" src="images/faq.png" alt=""></div>
+                <div class=""><img class="" src="images/faq.png" alt=""></div>
+
+            </div>
+
             </div>
 
         </section>
@@ -433,9 +439,57 @@
 
     </main>
 
-    <footer>
+    <footer class="bg-[#111111]">
+      
+        <div class="max-w-[1440px] m-auto py-[120px]">
 
+            <div class="grid grid-cols-4 m-auto gap-[81px]  max-sm:grid-cols-1 text-center ">
 
+             <div>
+                 <img class="mb-7" src="images/logo.png" alt="">
+                  <p class="poppins-regular text-[1rem] text-[#CFCFCF]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+             </div>
+             <div>
+                <h1 class="noto-serif-EBGaramond font-extrabold text-[1.5rem] text-[#FFFFFF]  mb-7">Usefull Link</h1>
+                <p class="poppins-regular text-[1rem] text-[#CFCFCF] my-3">Homes</p>
+                <p class="poppins-regular text-[1rem] text-[#CFCFCF] my-3">About Us</p>
+                <p class="poppins-regular text-[1rem] text-[#CFCFCF] my-3">Cases</p>
+                <p class="poppins-regular text-[1rem] text-[#CFCFCF] my-3">Blog</p>
+                <p class="poppins-regular text-[1rem] text-[#CFCFCF] my-3">Contact Us</p>
+               
+             </div>
+
+             <div>
+               <h1 class="noto-serif-EBGaramond font-extrabold text-[1.5rem] text-[#FFFFFF] mb-7">Contact Now</h1>
+                <p class="poppins-regular text-[1rem] text-[#CFCFCF] my-3">555 4th 5t NW, Washington <br>
+DC 20530, United States</p>
+                <p class="poppins-regular text-[1rem] text-[#CFCFCF] my-3">+88 01750 000 000 <br>
++88 01750 000 000</p>
+                <p class="poppins-regular text-[1rem] text-[#CFCFCF] my-3">info@gmail.com <br>
+info@gmail.com</p>
+        
+               
+             </div>
+             <div class="relative">
+                 <h1 class="noto-serif-EBGaramond font-extrabold text-[1.5rem] text-[#FFFFFF] mb-7">Subscribe</h1>
+                <p class="poppins-regular text-[1rem] text-[#CFCFCF] my-3">Subscribe for our latest & <br> Articles. We Won’t Give You <br>Spam Mails</p>
+               
+
+                  <div class="flex  justify-center gap-[24px] max-sm:items-center">
+                    <input
+                        class="rounded-[8px] poppins-regular font-normal text-[#A0A0A0] text-[1rem] bg-[#FFFFFF] w-full pl-[20px] py-[19px] "
+                        placeholder="Email Address" type="search" name="" id="">
+                    <div class="flex justify-center items-center bg-[#B68C5A] text-[#FFFFFF]  p-[22px]] rounded-[8px] w-20 h-15 absolute right-0">
+                        <button class="font-semibold text-lg " type="button"><i class="fa-regular fa-paper-plane"></i></button>
+                    </div>
+                </div>
+
+             </div>
+        </div>
+
+        </div>
+        
         
 
     </footer>
